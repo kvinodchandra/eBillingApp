@@ -128,6 +128,7 @@ class HomeActivity : AppCompatActivity() {
                 map["filter_tag"] = "today_sell"
                 return map
             }
+
         }
 
         val queue = Volley.newRequestQueue(applicationContext)
